@@ -1,0 +1,592 @@
+{
+  "navtop": {
+    "home": "主页",
+    "counter": "计数器",
+    "message": "消息",
+    "menu": {
+      "expense": {
+        "label": "费用",
+        "list": "费用清单",
+        "search": "费用搜索"
+      },
+      "functionality": {
+        "label": "功能",
+        "track": "航班跟踪",
+        "ticket": "机票搜索",
+        "property": "物业管理"
+      },
+      "admin": {
+        "label": "管理",
+        "user": "用户",
+        "log": "记录"
+      }
+    },
+    "search": "搜索",
+    "signin": "登录",
+    "signout": "登出",
+    "language": {
+      "label": "语言",
+      "English": "英语",
+      "French": "法语",
+      "Chinese": "中文"
+    }
+  },
+  "welcome": {
+    "title": "欢迎使用{{framework}}",
+    "intro": "要开始，请编辑 <1><0></0></1> 并保存以重新加载。",
+    "link": "学习React"
+  },
+  "counter": {
+    "button": "返回首页"
+  },
+  "spin": {
+    "button": "正在加载...",
+    "card": {
+      "header": "正在加载...",
+      "title": "请稍等，数据正在加载中...",
+      "text": "由于网络连接问题"
+    }
+  },
+  "login": {
+    "header": "登录",
+    "title": "请输入用户名和密码以登录",
+    "label": {
+      "username": "用户名",
+      "password": "密码"
+    },
+    "valid": {
+      "username": "用户名电子邮件格式必需正确",
+      "password": "密码必须为6个字符长"
+    },
+    "button": {
+      "login": "登录",
+      "register": "注册",
+      "forgot": "忘记密码?"
+    },
+    "message": {
+      "error": "用户名或密码错误"
+    }
+  },
+  "forgot": {
+    "header": "检索密码",
+    "title": "新密码将发送到您的电子邮件",
+    "label": {
+      "email": "电子邮件"
+    },
+    "valid": {
+      "email": "电子邮件是必需并且是正确的格式"
+    },
+    "button": {
+      "send": "发送",
+      "back": "返回登录"
+    },
+    "message": {
+      "success": "密码已经发送到您的电子邮件",
+      "error": "找回密码时发生问题"
+    }
+  },
+  "register": {
+    "header": "注册",
+    "title": "请填写注册表格，然后单击提交按钮",
+    "label": {
+      "name": "全名",
+      "email": "电子邮件",
+      "phone": "电话",
+      "gender": "性别",
+      "unknown": "未知",
+      "female": "女",
+      "male": "男",
+      "address": "地址行1",
+      "address2": "地址行2",
+      "city": "城市/城镇",
+      "postcode": "邮政编码",
+      "country": "国家",
+      "conditions": "我已阅读并接受使用条款和条件*"
+    },
+    "valid": {
+      "name": "需要全名",
+      "email": {
+        "required": "电子邮件为必填项",
+        "format": "电子邮件格式错误",
+        "existed": "电子邮件已存在"
+      },
+      "address": "需要地址行1",
+      "city": "城市/镇是必填字段",
+      "conditions": "请勾选条款和条件复选框"
+    },
+    "button": {
+      "cancel": "取消",
+      "register": "注册"
+    },
+    "message": {
+      "success": "注册已成功提交",
+      "error": "注册时发生了问题"
+    }
+  },
+  "log": {
+    "list": {
+      "title": "日志列表",
+      "message": {
+        "label": "这是日志列表页面",
+        "success": "日志已成功加载",
+        "noResult": "日志加载没有结果"
+      }
+    },
+    "field": {
+      "username": "用户名",
+      "type": "类型",
+      "datetime": "时间",
+      "result": "结果",
+      "ip": "IP",
+      "description": "描述"
+    }
+  },
+  "user": {
+    "list": {
+      "tab": {
+        "active": "活跃用户",
+        "archive": "存档用户",
+        "delete": "删除用户",
+        "graphic": "图形报告"
+      },
+      "title": {
+        "active": "表格: 活跃用户列表",
+        "archive": "表格: 已存档的用户列表",
+        "delete": "表格: 已删除的用户列表",
+        "graphic": "图表: 图形报告"
+      },
+      "message": {
+        "label": "这是用户列表页面",
+        "load": "用户列表已成功加载",
+        "success": {
+          "archive": "用户已成功归档",
+          "unarchive": "用户已成功取消归档",
+          "delete": "用户已成功删除"
+        },
+        "noResult": "用户加载没有结果"
+      }
+    },
+    "single": {
+      "tab": "编辑用户",
+      "title": "编辑用户",
+      "valid": {
+        "name": "需要全名",
+        "email": "电子邮件是必需的或存在或格式不正确",
+        "address": "需要地址行1",
+        "city": "城市/镇是必填字段"
+      },
+      "button": {
+        "back": "返回",
+        "save": "保存"
+      },
+      "message": {
+        "label": "用户编辑页面，请更新字段并单击保存按钮",
+        "load": "用户已成功加载",
+        "success": "该用户已成功更新",
+        "error": "更新用户时出现问题"
+      }
+    },
+    "field": {
+      "id": "ID",
+      "name": "名字",
+      "password": "密码",
+      "email": "电子邮件",
+      "phone": "电话",
+      "gender": "性别",
+      "unknown": "未知",
+      "female": "女",
+      "male": "男",
+      "address": "地址",
+      "address2": "地址行2",
+      "city": "城市/城镇",
+      "postcode": "邮政编码",
+      "country": "国家",
+      "create": "创建时间",
+      "modify": "更改时间",
+      "modifyby": "更改人",
+      "delete": "删除时间",
+      "deleteby": "删除人"
+    }
+  },
+  "expense": {
+    "list": {
+      "tab": {
+        "current": "当月",
+        "last": "上个月",
+        "next": "下个月"
+      },
+      "title": "费用清单",
+      "total": "总计: ",
+      "button": {
+        "create": "创建",
+        "backup": "备份",
+        "edit": "编辑",
+        "delete": "删除"
+      },
+      "message": {
+        "label": "这是费用清单页面",
+        "load": "费用已成功加载",
+        "success": {
+          "backup": "费用备份已成功完成",
+          "delete": "费用已成功删除"
+        },
+        "noResult": "费用加载没有结果"
+      },
+      "chart": {
+        "label": "费用类别图表"
+      }
+    },
+    "single": {
+      "tab": {
+        "create": "创建费用",
+        "edit": "编辑费用"
+      },
+      "title":  {
+        "create": "创建费用",
+        "edit": "修改费用"
+      },
+      "valid": {
+        "cost": "费用是必填字段",
+        "datetime": "必填字段日期时间或格式不正确",
+        "payto": "付给是必填字段",
+        "category": "类别是必填字段"
+      },
+      "button": {
+        "cancel": "取消",
+        "create": "创建",
+        "back": "返回",
+        "edit": "保存"
+      },
+      "message": {
+        "label": "费用编辑页面，请更新字段并单击保存按钮",
+        "load": "费用已成功加载",
+        "success": {
+          "create": "费用已成功创建",
+          "edit": "费用已成功更新"
+        },
+        "error": {
+          "payto": "加载”付给“字段时出现问题",
+          "create": "创建费用时出现问题",
+          "edit": "更新费用时出现问题"
+        }
+      }
+    },
+    "search": {
+      "tab": {
+        "current": "高级搜索"
+      },
+      "title": "费用高级搜索",
+      "total": "总计：",
+      "button": {
+        "search": "搜索",
+        "edit": "编辑"
+      },
+      "message": {
+        "label": "这是费用高级搜索页面",
+        "load": "搜索费用页面已加载成功",
+        "noResult": "费用搜索没有结果"
+      }
+    },
+    "option": {
+      "choose": "选择",
+      "expense": "日常开销",
+      "apparel": "服装鞋帽",
+      "household": "家用产品",
+      "motor": "汽车交通",
+      "holiday": "休闲度假",
+      "property": "房费账单",
+      "education": "儿童教育"
+    },
+    "field": {
+      "id": "ID",
+      "datetime": "日期时间",
+      "cost": "费用",
+      "payto": "付给",
+      "category": "类别",
+      "description": "描述",
+      "username": "创建人"
+    }
+  },
+  "track": {
+    "list": {
+      "title": "跟踪列表",
+      "button": {
+        "view": "查看",
+        "delete": "删除"
+      },
+      "message": {
+        "label": "这是航班跟踪列表页面",
+        "success": "航班跟踪已成功加载",
+        "noResult": "结果中没有航班跟踪"
+      }
+    },
+    "website": {
+      "label": {
+        "name": "网站名字",
+        "createdate": "创建时间",
+        "updatedate": "更新时间",
+        "activated": "已启动"
+      },
+      "option": {
+        "yes": "是",
+        "no": "否"
+      },
+      "valid": {
+        "token": "Token是必填字段"
+      },
+      "button": {
+        "edit": "保存"
+      },
+      "message": {
+        "success": "网站Token已成功更新"
+      }
+    },
+    "field": {
+      "trackdate": "跟踪时间",
+      "airport": "机场",
+      "code": "号",
+      "direction": "方向",
+      "completedate": "完成时间",
+      "numberflights": "航班数",
+      "result": "结果"
+    },
+    "info": {
+      "from": "开始",
+      "to": "结束"
+    }
+  },
+  "flight": {
+    "list": {
+      "title": "航班列表",
+      "message": {
+        "label": "这是航班列表页面",
+        "success": "航班已成功加载",
+        "noResult": "航班加载没有结果"
+      },
+      "button": {
+        "back": "返回"
+      }
+    },
+    "search": {
+      "tab": {
+        "current": "搜索"
+      },
+      "title": "机票搜索",
+      "button": {
+        "search": "搜索",
+        "check": "跳转"
+      },
+      "field": {
+        "departure": "出发机场码",
+        "arrival": "抵达机场码",
+        "departuredate": "出发日期",
+        "arrivaldate": "抵达日期",
+        "stop": "中转"
+      },
+      "valid": {
+        "departure": {
+          "required": "出发机场码是必填字段",
+          "format": "出发机场码格式错误"
+        },
+        "arrival": {
+          "required": "抵达机场码是必填字段",
+          "format": "抵达机场码格式错误"
+        },
+        "departuredate": "出发日期是必填字段",
+        "arrivaldate": "抵达日期是必填字段"
+      },
+      "option": {
+        "direct": "直飞",
+        "one": "中转一次",
+        "two": "中转两次"
+      },
+      "form": {
+        "field": {
+          "departure": "出发",
+          "from": "起飞",
+          "arrival": "抵达",
+          "to": "降落",
+          "stop": "中转",
+          "duration": "时长",
+          "carrier": "提供商",
+          "minprice": "最低价",
+          "maxprice": "最高价",
+          "agent": "中介"
+        }
+      },
+      "message": {
+        "label": "这是机票搜索页面",
+        "success": "机票搜索已成功加载",
+        "noResult": "机票搜索没有结果"
+      }
+    },
+    "field": {
+      "scheduleddeptime": "预定出发",
+      "dsttinezone": "时区",
+      "fdstaptcname": "抵达城市",
+      "fdst": "机场码",
+      "forgaptcname": "出发城市",
+      "forg": "机场码",
+      "fnum": "航班号",
+      "ftype": "机型",
+      "name": "状态",
+      "actualdeptime": "实际出发"
+    }
+  },
+  "property": {
+    "list": {
+      "title": "物业列表",
+      "message": {
+        "label": "这是物业列表页面",
+        "success": {
+          "load": "物业已成功加载",
+          "edit": "物业已成功编辑",
+          "import": "物业已成功导入",
+          "delete": "一个或多个物业已成功删除"
+        },
+        "warning": {
+          "delete": "请至少选择一个要删除的物业"
+        },
+        "noResult": "物业列表没有结果"
+      },
+      "alt": {
+        "property": "物业照片",
+        "logourl": "中介照片",
+        "website": "网站照片"
+      },
+      "button": {
+        "import": "导入",
+        "delete": "删除",
+        "filter": "筛选",
+        "all": "全部",
+        "saved": "保存",
+        "sold": "售出",
+        "view": "看房",
+        "edit": "编辑",
+        "checkStreet": "过户查街",
+        "checkProperty": "过户查房"
+      }
+    },
+    "single": {
+      "tab": {
+        "edit": "编辑物业"
+      },
+      "title":  {
+        "edit": "修改物业"
+      },
+      "valid": {
+        "bidprice": "竞价字段格式不正确",
+        "viewdate": "看房时间日期字段格式不正确",
+        "soldprice": "售出价格字段格式不正确",
+        "solddate": "售出时间日期字段格式不正确",
+        "note": "注意的问题最大长度必须小于255个字符"
+      },
+      "placeholder": {
+        "note": "请留下注意的问题"
+      },
+      "button": {
+        "back": "返回",
+        "edit": "保存"
+      },
+      "message": {
+        "label": "物业编辑页面，请更新字段并单击保存按钮",
+        "load": "物业已成功加载",
+        "success": {
+          "edit": "物业已成功更新"
+        },
+        "error": {
+          "edit": "更新物业时出现问题"
+        }
+      }
+    },
+    "field": {
+      "website": "网站",
+      "location": "地点",
+      "address": "地址",
+      "beds": "房间",
+      "type": "户型",
+      "sizeBer": "面积 BER",
+      "price": "价格",
+      "photo": "照片",
+      "agent": "中介",
+      "createdate": "加入时间",
+      "bidprice": "竞价",
+      "viewdate": "看房时间",
+      "note": "注意的问题",
+      "soldprice": "售出价格",
+      "solddate": "售出时间"
+    }
+  },
+  "modal": {
+    "user": {
+      "title": "确认模式",
+      "header": "删除用户",
+      "body": "请单击”确认“按钮删除此用户，或单击”取消“按钮停止操作并关闭模式",
+      "cancel": "取消",
+      "confirm": "确认"
+    },
+    "expense": {
+      "title": "确认模式",
+      "header": "删除费用",
+      "body": "请单击”确认“按钮删除此费用，或单击”取消“按钮停止操作并关闭模式",
+      "cancel": "取消",
+      "confirm": "确认"
+    }
+  },
+  "chart": {
+    "label": "图表"
+  },
+  "pagination": {
+    "title": "每页项目",
+    "button5": "每页5个项目",
+    "button10": "每页10个项目",
+    "button50": "每页50个项目",
+    "all": "全部"
+  },
+  "datepicker": {
+    "time": "时间:",
+    "placeholder": "请输入日期时间"
+  },
+  "day": {
+    "0": "Sunday",
+    "1": "Monday",
+    "2": "Tuesday",
+    "3": "Wednesday",
+    "4": "Thursday",
+    "5": "Friday",
+    "6": "Saturday"
+  },
+  "month": {
+    "0": "January",
+    "1": "February",
+    "2": "March",
+    "3": "April",
+    "4": "May",
+    "5": "June",
+    "6": "July",
+    "7": "August",
+    "8": "September",
+    "9": "October",
+    "10": "November",
+    "11": "December"
+  },
+  "airport": {
+    "PEK": "北京首都机场",
+    "PVG": "上海浦东机场",
+    "DLC": "大连周水子机场",
+    "HKG": "香港國際機場",
+    "XMN": "厦门高崎机场",
+    "SZX": "深圳宝安机场",
+    "CAN": "广州白云机场",
+    "CTU": "成都双流国际",
+    "DUB": "都柏林机场",
+    "CPH": "哥本哈根机场"
+  },
+  "direction": {
+    "Dep": "出发",
+    "Arr": "抵达"
+  },
+  "pagenotfound": {
+    "button": "返回首页"
+  }
+}

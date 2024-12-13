@@ -1,0 +1,46 @@
+{
+  "navtop": {
+    "home": "Accueil",
+    "counter": "Compteur",
+    "message": "Message",
+    "api": {
+      "label": "Menu",
+      "user": "Utilisateur",
+      "log": "Log",
+      "expense": "Dépense"
+    },
+    "search": "Chercher",
+    "signin": "Se connecter",
+    "signout": "Déconnexion",
+    "language": {
+      "label": "La langue",
+      "English": "Anglais",
+      "French": "Français",
+      "Chinese": "Chinois"
+    }
+  },
+  "welcome": {
+    "title": "Bienvenue dans {{framework}}",
+    "intro": "Pour commencer, éditez <1> <0> </ 0> </ 1> et sauvegardez pour le recharger.",
+    "link": "Apprendre à réagir"
+  },
+  "login": {
+    "description": "Veuillez saisir votre nom d'utilisateur et votre mot de passe pour vous connecter",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe"
+  },
+  "counter": {
+    "button": "Retour à la page d'accueil"
+  },
+  "spin": {
+    "button": "Chargement...",
+    "card": {
+      "header": "Chargement...",
+      "title": "Veuillez patienter, les données se chargent ...",
+      "text": "En raison du problème de connexion réseau"
+    }
+  },
+  "pagenotfound": {
+    "button": "Retour à la page d'accueil"
+  }
+}
